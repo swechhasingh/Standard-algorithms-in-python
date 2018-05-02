@@ -24,8 +24,18 @@
  ###### Input : list of numbers
  ###### Output : index of pivot element
 
+ #### Steps
+ 1. Select pivot element.
+ 2. Take two variables i = 0 and j = -1.
+ 3. Variable j tells that all the element at index less than or equal to j are less than or equal to pivot and all the element to the right of index j till index i are greater than pivot eement.
+ 4. Scan the list once using "i" and whenever an element less than or equal to pivot occurs swap it element at index j+1(element which is greater than pivot).
+ 5. After scanning swap first element of list with element at index j, so that pivot is present at index j.
+ 6. Return j which is index of pivot.
+
+
  #### Time Complexity
  	Every Case - O(n) here n is size of list of numbers.
 
  ## 3. K-th Smallest Number in an array
+ 
 
