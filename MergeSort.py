@@ -39,7 +39,7 @@ def mergeSort(arr,l,h):
 				arr[l],arr[h] = arr[h],arr[l]
 			return arr
 		else :
-			mid = (l + (h))/2
+			mid = (l + h)/2
 			mergeSort(arr,l,mid)
 			mergeSort(arr,mid+1,h)
 			arr = merge(arr,l,h,mid)
