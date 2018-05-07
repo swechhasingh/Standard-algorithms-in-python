@@ -37,5 +37,31 @@
  	Every Case - O(n) here n is size of list of numbers.
 
  ## 3. K-th Smallest Number in an array
+ K-th smallest number can be found using partition algorithm. If the pivot index "m" returned by partition is equal to k then element at mth index is k-th smallest number. If pivot index returned by partiton is greater then k then apply partition on left part and if pivot index is less than k then apply partition on right part
+
+
+ ## 4. K-th Largest Number in an array
+ Finding K-th largest number is same as finding "n - k + 1" th smallest element, here n is the length of array.
+
+
+
+ ## Merge-sort
+ Merge sort is a divide and conquer algorithm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
