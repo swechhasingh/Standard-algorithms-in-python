@@ -33,7 +33,4 @@ def in_degree(matrix,visit,v):
 			q.put(i)	
 	return q
 
-
-
-
 Topological_sorting(adj_matrix, n)
