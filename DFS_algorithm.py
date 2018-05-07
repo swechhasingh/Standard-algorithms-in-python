@@ -6,7 +6,7 @@ adj_matrix = [[int(j) for j in raw_input().split(" ")] for i in range(n)]
 
 print adj_matrix
 
-def BFS_traversal(matrix, v, start): 
+def DFS_algorithm(matrix, v, start): 
 	visited = [0]*v
 	q = Queue.LifoQueue()
 	q.put(start)
@@ -19,4 +19,4 @@ def BFS_traversal(matrix, v, start):
 				q.put(i)
 				visited[i] = 1
 
-BFS_traversal(adj_matrix, n,0)
+DFS_algorithm(adj_matrix, n,0)
